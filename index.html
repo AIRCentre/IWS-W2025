@@ -142,17 +142,14 @@
                 store the positive images on S3 and their metadata on SQL a database for efficient retrieval.</p>
             <ul>
                 <li>Data Acquisition and Processing:</li></p>
-                – Continuously ingests Sentinel-1 WV mode vignettes from global acquisitions. </p>
-                - The images were sourced from: IFREMER: X-Waves.</p>
+                The system continuously ingests Sentinel-1 WV mode vignettes from global acquisitions. The images were sourced from IFREMER X-Waves.</p>
                 <li>Machine Learning Classification:</li></p>
-                – Employs a state-of-the-art machine learning model to classify each vignette, determining the presence or 
+                Employs a state-of-the-art machine learning model to classify each vignette, determining the presence or 
                 absence of internal waves. The model is trained on a diverse dataset of imagettes of different oceans featuring 
-                various oceanic conditions.
+                various oceanic conditions.</p>
                 <li>Data Management:</li></p>
-                - – Positive detections: Vignettes classified as containing internal waves are stored in S3 object storage for 
-                efficient retrieval and further analysis.</p>
-                – Comprehensive metadata for all processed vignettes, including classification results, acquisition details, and 
-                geolocation information, is stored in a SQL database.</p>
+                Positive detections: Vignettes classified as containing internal waves are stored in S3 object storage for efficient retrieval and further analysis.
+                Comprehensive metadata for all processed vignettes, including classification results, acquisition details, and geolocation information, is stored in a SQL database.</p>
                 <li>Key Features:</li></p>
             </ul>
             </p>
