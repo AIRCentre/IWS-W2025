@@ -149,7 +149,11 @@ h2 {
     padding-bottom: 10px;
     padding-left: 20px;
   }
-
+  .card__img {
+    max-width: 60%; /* Reduz o tamanho da imagem em telas menores */
+    height: auto;   /* Mantém a proporção */
+    margin: 0 auto; /* Centraliza horizontalmente */
+  }
 }
 
 /* unvisited link */
