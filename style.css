@@ -26,15 +26,16 @@ html {
  * https://stackoverflow.com/a/16982510/7133471
  *
  * Customize the background color to match your design.
+ background: #b3d4fc;
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #91bbea;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #91bbea;
   text-shadow: none;
 }
 
@@ -152,9 +153,9 @@ h2 {
 
 }
 
-/* unvisited link */
+/* unvisited link color: #33CCFF;*/
 a:link {
-  color: #33CCFF;
+  color: #191970;
 }
 
 /* visited link */
