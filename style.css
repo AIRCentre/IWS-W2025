@@ -109,9 +109,6 @@ h2 {
   font-weight: lighter;
 }
 
-.row {
-  height: 100px;
-}
 
 .center {
   display: block;
@@ -127,10 +124,25 @@ h2 {
 
 .row {
   display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  flex-wrap: wrap; /* Permite que os elementos se ajustem conforme necessário */
+  gap: 15px; /* Adiciona espaçamento entre os logos */
 }
 
 .column {
-  flex: 50%;
+  flex: 1 1 30%; /* Ajusta a largura das colunas e mantém responsividade */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 30%; /* Impede que os logos fiquem grandes demais */
+}
+
+.topbar-logo {
+  max-height: 120px; /* Define um tamanho máximo uniforme */
+  max-width: 100%;
+  object-fit: contain; /* Mantém as proporções corretas */
+  padding: 10px; /* Adiciona um pequeno espaço ao redor */
 }
 
 .card__img {
