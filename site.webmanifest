@@ -1,6 +1,6 @@
 {
     "name": "JuliaEO25 - Global Workshop on Earth Observation with Julia",
-    "short_name": "JuliaEO25",
+    "short_name": "IWS-W25",
     "icons": [
         {
             "src": "img/android-chrome-192x192.png",
@@ -10,6 +10,6 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "start_url": "https://aircentre.github.io/JuliaEO25/",
+    "start_url": "https://aircentre.github.io/IWS-W2025/",
     "display": "standalone"
 }
